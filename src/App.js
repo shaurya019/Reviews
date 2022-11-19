@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Review from './Component/review'
+import Review from './Component/Review'
 function App() {
   return (
     <main>
