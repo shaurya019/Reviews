@@ -27,7 +27,11 @@ const Review = () => {
       });
   };
   const random = () => {
-
+    let randomIndex = Math.floor(Math.random() * people.length);
+    if(randomIndex==index){
+      randomIndex = index+1;
+    }
+    setIndex(checkNumber(randomIndex));
   };
   return (
     <article className='review'>
